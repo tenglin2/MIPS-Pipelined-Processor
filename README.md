@@ -35,4 +35,4 @@ A pipelined processor is special because it allows multiple instructions to be p
 ### Final Notes
 This is more of a proof of concept than anything else. I wanted to learned how the processor works so I did this little project. Processors these days are exceptionally more complicated than my implementation.
 
-My processor uses a 32 bit instruction set architecture. I have a testbench which tests the hardcoded MIPS instructions. I also have a schematic and waveform to show that pipelining is actually working as expected.
+My processor uses a 32 bit instruction set architecture. I have a testbench which tests the hardcoded MIPS instructions. I also have a schematic and waveform to show that pipelining is actually working as expected. I decided to make one large file called Processor and hold all the modules inside, but I probably should have split it up into separate files for organization purposes.
